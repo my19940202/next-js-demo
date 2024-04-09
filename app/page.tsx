@@ -5,12 +5,12 @@ export default function Home() {
     return (
         <main className={styles.main}>
             <div>
-                <h1>this is main page</h1>
-                <p>
-                    <Link href="/about">About</Link>
-                    &nbsp;&nbsp;&nbsp;
-                    <Link href="/list">List</Link>
-                </p>
+                <h1>虚拟键盘测试页面</h1>
+                <ul>
+                    <li><Link href="/default">普通页面-无虚拟键盘API调用</Link></li>
+                    <li><Link href="/about">普通页面-无虚拟键盘API调用</Link></li>
+                    <li><Link href="/list">普通页面-无虚拟键盘API调用</Link></li>
+                </ul>
             </div>
         </main>
     );
