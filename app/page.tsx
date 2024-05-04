@@ -9,6 +9,7 @@ export default function Home() {
                 <Link href="/default"><h1>default-普通页面-无虚拟键盘API调用</h1></Link>
                 <Link href="/about"><h1>about-普通页面-无虚拟键盘API调用</h1></Link>
                 <Link href="/inputmode"><h1>inputmode-普通页面-无虚拟键盘API调用</h1></Link>
+                <Link href="/threejs"><h1>threejs初体验</h1></Link>
             </div>
         </main>
     );
