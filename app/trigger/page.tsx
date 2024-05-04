@@ -1,4 +1,5 @@
 'use client'
+// 触发本机虚拟键盘的显示和隐藏
 import { useEffect, useState } from 'react';
 
 export default function Index() {
